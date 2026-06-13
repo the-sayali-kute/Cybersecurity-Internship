@@ -1,0 +1,104 @@
+Linux Task 01 - Command Outputs
+
+1. pwd
+   Output:
+   /home/sayali
+
+Purpose:
+Displays the current working directory.
+
+---
+
+2. ls
+   Output:
+   Desktop Documents Downloads Music Pictures Public Templates Videos
+
+Purpose:
+Lists files and directories in the current location.
+
+---
+
+3. ls -la
+   Output:
+   Displayed all files and folders including hidden files such as:
+   .bashrc
+   .profile
+   .config
+   .cache
+   .local
+   .ssh
+
+Purpose:
+Shows detailed information including hidden files.
+
+---
+
+4. cd
+   Output:
+   Used to navigate between directories.
+
+Purpose:
+Changes the current directory.
+
+---
+
+5. clear
+   Output:
+   Clears the terminal screen.
+
+Purpose:
+Provides a clean workspace.
+
+---
+
+6. history
+   Output:
+   Displayed previously executed commands.
+
+Purpose:
+Shows command history.
+
+---
+
+7. whoami
+   Output:
+   sayali
+
+Purpose:
+Displays the currently logged-in user.
+
+---
+
+8. hostname
+   Output:
+   kali
+
+Purpose:
+Displays the system hostname.
+
+---
+
+9. uname -a
+   Output:
+   Linux kali 6.18.12+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.18.12-1kali1 x86_64 GNU/Linux
+
+Purpose:
+Displays kernel and operating system information.
+
+---
+
+10. date
+    Output:
+    Friday 12 June 2026
+
+Purpose:
+Displays current date and time.
+
+---
+
+11. uptime
+    Output:
+    19:02:15 up 29 min, 1 user, load average: 1.23, 1.11, 0.93
+
+Purpose:
+Displays system uptime and load information.

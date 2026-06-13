@@ -1,0 +1,67 @@
+Linux Task 01 Notes
+
+Linux File System Structure
+
+/      -> Root Directory
+/home  -> User Home Directories
+/etc   -> Configuration Files
+/bin   -> Essential Commands
+/usr   -> User Programs
+/var   -> Log Files and Variable Data
+/tmp   -> Temporary Files
+
+---
+
+Root Directory (/)
+
+The root directory is the top-level directory in Linux. All other files and folders originate from this location.
+
+---
+
+Home Directory
+
+Each user has a home directory where personal files and settings are stored.
+
+Example:
+/home/sayali
+
+---
+
+Absolute vs Relative Paths
+
+Absolute Path:
+/home/sayali/Documents
+
+Relative Path:
+Documents/file.txt
+
+---
+
+Common Linux Commands
+
+pwd      - Print Working Directory
+ls       - List Files
+cd       - Change Directory
+mkdir    - Create Directory
+touch    - Create File
+cp       - Copy Files
+mv       - Move/Rename Files
+rm       - Delete Files
+whoami   - Display Username
+hostname - Display Hostname
+
+---
+
+Linux Distributions
+
+Ubuntu
+Kali Linux
+Parrot OS
+Fedora
+Debian
+
+---
+
+Shell Basics
+
+The shell is a command-line interface used to interact with the Linux operating system. Bash is the most commonly used shell.
