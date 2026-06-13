@@ -1,0 +1,79 @@
+# Permission Analysis
+
+## Permission 755
+
+Owner Rights:
+Read, Write, Execute
+
+Group Rights:
+Read, Execute
+
+Other Users:
+Read, Execute
+
+Use Case:
+Web server directories and executable scripts.
+
+---
+
+## Permission 644
+
+Owner Rights:
+Read, Write
+
+Group Rights:
+Read
+
+Other Users:
+Read
+
+Use Case:
+Configuration files and documents.
+
+---
+
+## Permission 777
+
+Owner Rights:
+Read, Write, Execute
+
+Group Rights:
+Read, Write, Execute
+
+Other Users:
+Read, Write, Execute
+
+Use Case:
+Rarely recommended because it allows everyone full access.
+
+---
+
+## Permission 600
+
+Owner Rights:
+Read, Write
+
+Group Rights:
+No Access
+
+Other Users:
+No Access
+
+Use Case:
+Passwords, SSH keys, and confidential files.
+
+---
+
+## Permission 700
+
+Owner Rights:
+Read, Write, Execute
+
+Group Rights:
+No Access
+
+Other Users:
+No Access
+
+Use Case:
+Private directories and administrative scripts.

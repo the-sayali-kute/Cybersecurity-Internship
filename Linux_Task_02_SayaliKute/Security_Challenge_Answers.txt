@@ -1,0 +1,16 @@
+# Security Challenge
+
+| File                | Recommended Permission | Reason                                                                    |
+| ------------------- | ---------------------- | ------------------------------------------------------------------------- |
+| password_backup.txt | 600                    | Contains sensitive credentials and should only be accessible by the owner |
+| public_notice.txt   | 644                    | Everyone can read it but only the owner can modify it                     |
+| system_log.txt      | 640                    | Administrators can read logs while preventing public access               |
+| personal_notes.txt  | 600                    | Personal information should remain private                                |
+
+## Explanation
+
+Sensitive files such as password backups and personal notes should have restricted permissions to prevent unauthorized access.
+
+Public information should be readable by all users but only modifiable by authorized personnel.
+
+System logs should be protected to prevent tampering while remaining accessible to administrators.
