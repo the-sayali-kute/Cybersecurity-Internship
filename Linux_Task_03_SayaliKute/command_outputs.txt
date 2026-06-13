@@ -1,0 +1,129 @@
+Linux Task 03 - Command Outputs
+
+========================================
+PART A - PROCESS MONITORING
+===========================
+
+ps
+ps aux
+top
+htop
+
+Purpose:
+
+* ps: Displays running processes.
+* ps aux: Displays detailed information about all running processes.
+* top: Real-time process monitoring.
+* htop: Interactive process monitoring tool.
+
+---
+
+What is a Process?
+
+A process is a running instance of a program executing on the operating system.
+
+What is a PID?
+
+PID (Process ID) is a unique number assigned to every running process.
+
+Which process is consuming the most CPU?
+
+Identified using top/htop during execution.
+
+Which process is consuming the most Memory?
+
+Identified using top/htop during execution.
+
+========================================
+PART B - PROCESS MANAGEMENT
+===========================
+
+sleep 300
+
+ps aux | grep sleep
+
+kill PID
+
+kill -9 PID
+
+Purpose:
+
+* sleep 300 creates a temporary process.
+* grep sleep locates the process.
+* kill terminates the process gracefully.
+* kill -9 forcefully terminates the process.
+
+---
+
+Example:
+
+PID Found: 2456
+
+Command Used:
+kill 2456
+
+Result:
+Process terminated successfully.
+
+========================================
+PART C - SYSTEM MONITORING
+==========================
+
+free -h
+df -h
+uptime
+uname -a
+
+System Information Collected:
+
+Total RAM:
+1.9 GiB
+
+Available RAM:
+1.2 GiB
+
+Disk Usage:
+19 GB Total
+18 GB Used
+168 MB Available
+
+System Uptime:
+1 Hour 27 Minutes
+
+Kernel Version:
+Linux kali 6.18.12+kali-amd64
+
+========================================
+PART D - SERVICE MONITORING
+===========================
+
+systemctl status ssh
+
+systemctl status NetworkManager
+
+Purpose:
+Displays service status information.
+
+========================================
+PART E - SHELL SCRIPT EXECUTION
+===============================
+
+chmod +x system_report.sh
+
+./system_report.sh
+
+Purpose:
+Makes the script executable and runs it.
+
+========================================
+PART F - SECURITY MONITORING COMMANDS
+=====================================
+
+netstat
+ss
+who
+w
+last
+
+Purpose:
+Used to monitor network connections, user activity, login history, and system security events.

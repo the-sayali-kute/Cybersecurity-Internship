@@ -1,0 +1,64 @@
+# Security Monitoring Commands
+
+## netstat
+
+Purpose:
+Displays network connections, routing tables, and listening ports.
+
+Example Output:
+tcp 0 0 127.0.0.1:80 LISTEN
+
+Security Use Case:
+Used to identify suspicious network connections and open ports.
+
+---
+
+## ss
+
+Purpose:
+Displays socket statistics and active connections.
+
+Example Output:
+LISTEN 0 128 *:22
+
+Security Use Case:
+Used to identify listening services and network activity.
+
+---
+
+## who
+
+Purpose:
+Shows currently logged-in users.
+
+Example Output:
+sayali pts/0
+
+Security Use Case:
+Used to identify active user sessions.
+
+---
+
+## w
+
+Purpose:
+Displays logged-in users and their activities.
+
+Example Output:
+USER TTY FROM LOGIN@ IDLE
+
+Security Use Case:
+Used to monitor user activity.
+
+---
+
+## last
+
+Purpose:
+Shows login history.
+
+Example Output:
+sayali pts/0
+
+Security Use Case:
+Used to investigate suspicious logins and security incidents.

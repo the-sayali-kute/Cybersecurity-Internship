@@ -1,0 +1,25 @@
+# Linux System Summary Report
+
+Username: sayali
+
+Hostname: kali
+
+Operating System: Kali Linux
+
+Kernel Version:
+(Output from uname -a)
+
+Total RAM:
+(Output from free -h)
+
+Available RAM:
+(Output from free -h)
+
+Disk Usage:
+(Output from df -h)
+
+System Uptime:
+(Output from uptime)
+
+Summary:
+The system information was collected using Linux monitoring commands. These commands provide important details about hardware resources, storage utilization, kernel information, and system performance.
